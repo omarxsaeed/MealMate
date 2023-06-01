@@ -119,6 +119,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 100;
   }
 
   .main-nav {
@@ -211,7 +212,7 @@
 }
 
 /**********************************/
-/*  Smaller tablet - below 700px  */
+/*  Phones - below 544px  */
 /**********************************/
 @media (max-width: 34em) {
   .grid {
