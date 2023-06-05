@@ -99,12 +99,16 @@
             </div>
           </div>
           <div class="hero-section--image-box">
-            <img
-              src="assets/images/hero.png"
-              alt="A woman enjoying food. some food bowls and containers."
-              class="hero-section--image"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="./assets/images/hero.webp" />
+              <source srcset="./assets/images/hero-min.png" />
+              <img
+                src="assets/images/hero-min.png"
+                alt="A woman enjoying food. some food bowls and containers."
+                class="hero-section--image"
+                loading="lazy"
+              />
+            </picture>
           </div>
         </div>
       </section>
